@@ -32,7 +32,7 @@ contract DynamicNFT is ERC721, ERC721URIStorage, Ownable {
                 string(
                     abi.encodePacked(
                         '{"name": "Dynamic NFT",',
-                        '"description": "An Automated Counting SVG",',
+                        '"description": "An Automated Dynamic NFT",',
                         '"image": "data:image/svg+xml;base64,',
                         Base64.encode(bytes(finalSVG)),
                         '"}'
