@@ -15,7 +15,7 @@ contract DynamicNFT is ERC721, ERC721URIStorage, Ownable {
     
     uint256 count = 0;
     
-    constructor() ERC721("Counting SVG", "cSVG") {
+    constructor() ERC721("Dynamic SVG", "cSVG") {
     }
 
     function safeMint(address to) public onlyOwner {
